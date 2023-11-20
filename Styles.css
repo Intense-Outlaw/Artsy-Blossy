@@ -1,0 +1,27 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #ffcccc; /* Light pink background */
+}
+
+header {
+  background-color: #ff3399; /* Dark pink header */
+  padding: 20px;
+  color: white;
+}
+
+/* Add more CSS for specific sections, images, etc. */
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff3399; /* Dark pink footer */
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
