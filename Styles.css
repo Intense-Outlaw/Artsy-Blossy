@@ -1,27 +1,45 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, ul, li {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightpink;
   color: #333;
-  background-color: #ffcccc; /* Light pink background */
 }
 
 header {
-  background-color: #ff3399; /* Dark pink header */
-  padding: 20px;
+  background-image: url('path/to/overlay/image.jpg'); /* Add your overlay image path here */
+  background-size: cover;
+  padding: 40px;
+  text-align: center;
   color: white;
 }
 
-/* Add more CSS for specific sections, images, etc. */
+nav ul {
+  list-style: none;
+}
 
-/* Footer Styles */
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px;
+}
+
 footer {
   text-align: center;
-  padding: 10px;
-  background-color: #ff3399; /* Dark pink footer */
+  padding: 20px;
+  background-color: #444;
   color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
